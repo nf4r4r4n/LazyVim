@@ -6,3 +6,7 @@ local opts = { noremap = true, silent = true }
 
 -- JK the same to escape
 keymap.set("i", "jk", "<Esc>", opts)
+
+-- Buffers
+keymap.set("n", "<Leader>bn", "<cmd>bn<CR>", { desc = "Next buffer" })
+keymap.set("n", "<Leader>bp", "<cmd>bp<CR>", { desc = "Previous buffer" })
