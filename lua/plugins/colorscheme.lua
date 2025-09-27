@@ -1,9 +1,9 @@
 return {
-  "catppuccin/nvim",
-  name = "catppuccin",
+  "rose-pine/neovim",
+  name = "rose-pine",
   priority = 1000,
-  lazy = true,
+  lazy = false,
   opts = {
-    auto_integrations = true,
+    variant = "dawn",
   },
 }
