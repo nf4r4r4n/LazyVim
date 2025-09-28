@@ -1,9 +1,5 @@
 return {
-  "rose-pine/neovim",
-  name = "rose-pine",
+  "Mofiqul/vscode.nvim",
   priority = 1000,
   lazy = false,
-  opts = {
-    variant = "dawn",
-  },
 }
