@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.opt.mouse = ""
+vim.opt.clipboard = "unnamedplus"
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
