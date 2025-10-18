@@ -1,5 +1,5 @@
 return {
-  "Mofiqul/vscode.nvim",
+  "EdenEast/nightfox.nvim",
   priority = 1000,
   lazy = false,
 }
