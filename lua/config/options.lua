@@ -5,6 +5,9 @@
 vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
 
+-- Adwaita
+vim.g.adwaita_darker = true
+
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
 vim.cmd([[let &t_Ce = "\e[4:0m"]])

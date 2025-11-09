@@ -1,5 +1,5 @@
 return {
-  "AlexvZyl/nordic.nvim",
+  "Mofiqul/adwaita.nvim",
   priority = 1000,
   lazy = false,
 }
