@@ -21,7 +21,7 @@ require("lazy").setup({
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "adwaita",
+        colorscheme = "bluloco-light",
       },
     },
     { import = "lazyvim.plugins.extras.lang.typescript" },

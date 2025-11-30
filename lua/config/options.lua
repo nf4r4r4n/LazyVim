@@ -4,9 +4,12 @@
 
 vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = false
+vim.o.termguicolors = true
 
 -- Adwaita
-vim.g.adwaita_darker = true
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
